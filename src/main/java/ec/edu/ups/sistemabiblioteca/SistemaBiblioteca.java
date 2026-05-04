@@ -176,9 +176,12 @@ public class SistemaBiblioteca {
         }
  
         System.out.println("\n  Fecha limite de devolucion:");
-        System.out.print("  Anio : "); int añoD = sc.nextInt();
-        System.out.print("  Mes  : "); int mesD  = sc.nextInt();
-        System.out.print("  Dia  : "); int diaD  = sc.nextInt();
+        System.out.print("  Año : "); 
+        int añoD = sc.nextInt();
+        System.out.print("  Mes  : "); 
+        int mesD  = sc.nextInt();
+        System.out.print("  Dia  : "); 
+        int diaD  = sc.nextInt();
         
         PrestamoLibro prestamo = usuario.pedirLibro(libro);
         if(prestamo!=null){
